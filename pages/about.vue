@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="mt-5">About The App</h1>
+    <h1 class="mt-5">Coming Soon</h1>
   </div>
 </template>
 <script>

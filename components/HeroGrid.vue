@@ -2,15 +2,17 @@
   <div class="row">
     <div class="col-md-3 mt-2" v-for="hero in characters" v-bind:key="hero.id">
       <div class="card">
-        <img
-          class="card-img-top"
-          :src="'https://justiceleagueheros.herokuapp.com' + hero.image"
-          alt="Card image"
-          style="width: 100%"
-        />
-        <div class="card-body">
-          <h4 class="card-title">{{ hero.name }}</h4>
-        </div>
+        <nuxt-link :to="'/' + hero.id">
+          <img
+            class="card-img-top"
+            :src="'https://justiceleagueheros.herokuapp.com' + hero.image"
+            alt="Card image"
+            style="width: 100%"
+          />
+          <div class="card-body">
+            <h4 class="card-title">{{ hero.name }}</h4>
+          </div>
+        </nuxt-link>
       </div>
     </div>
   </div>
@@ -36,7 +38,6 @@ export default {
         "https://justiceleagueheros.herokuapp.com/api/characters/",
         config
       );
-      console.log(response.data);
       this.characters = response.data;
     } catch (error) {
       console.log(error);

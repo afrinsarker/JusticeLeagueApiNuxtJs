@@ -2,7 +2,9 @@
   <div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand logo" href="/" style="font-size: 1.5rem">JL</a>
+        <a class="navbar-brand logo" href="/" style="font-size: 1.5rem"
+          >Justice League</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -23,9 +25,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/details">Details</a>
             </li>
           </ul>
         </div>
