@@ -8,7 +8,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            style="opacity: 40%"
+            style="opacity: 80%"
             src="https://c4.wallpaperflare.com/wallpaper/17/894/478/comics-justice-league-aquaman-batman-wallpaper-preview.jpg"
             class="d-block w-100"
             alt="..."
@@ -17,7 +17,7 @@
         </div>
         <div class="carousel-item">
           <img
-            style="opacity: 40%"
+            style="opacity: 80%"
             src="https://i.pinimg.com/originals/3a/e0/83/3ae083a23be5bbd7b14c5e4c9592fd77.jpg"
             class="d-block w-100"
             alt="..."

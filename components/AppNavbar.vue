@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand logo" href="#" style="font-size: 1.5rem">JL</a>
+        <a class="navbar-brand logo" href="/" style="font-size: 1.5rem">JL</a>
         <button
           class="navbar-toggler"
           type="button"
